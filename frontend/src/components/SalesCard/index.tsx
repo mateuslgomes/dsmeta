@@ -6,7 +6,7 @@ import NotificationButton from '../NotificationButton';
 import { useEffect, useState } from 'react';
 import axios from 'axios';
 import { BASE_URL } from '../../utils/request';
-import { Sale } from "../../models/"
+import { Sale } from "../../models/sale"
 
 function SalesCard() {
 
