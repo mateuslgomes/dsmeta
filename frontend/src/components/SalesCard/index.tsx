@@ -3,9 +3,9 @@ import "react-datepicker/dist/react-datepicker.css";
 
 import './styles.css';
 import NotificationButton from '../NotificationButton';
-import { useEffect, useState } from "react";
-import axios from "axios";
-import { BASE_URL } from "../../utils/request";
+import { useEffect, useState } from 'react';
+import axios from 'axios';
+import { BASE_URL } from '../../utils/request';
 import { Sale } from "../../models/Sale";
 
 function SalesCard() {
